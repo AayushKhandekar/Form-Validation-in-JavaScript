@@ -1,0 +1,27 @@
+<html>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Authentication</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="FormAuthentication.js"></script>
+
+    </head>
+
+    <body>
+        
+        <form name="form" action="#" method="POST" onsubmit=" return validate()">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="text" name="passwordOne" placeholder="Password" required>
+            <input type="text" name="passwordTwo" placeholder="Re-enter Password" required>
+
+            <!-- Converting type to number can also validate the below field -->
+            <input type="text" name="number" placeholder="Number" required>
+            <input id="btn" type="submit" value="submit">
+        </form>
+
+    </body>
+
+</html>
+
